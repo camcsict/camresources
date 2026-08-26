@@ -52,7 +52,7 @@ Please write the simplest HTML and CSS code to cover all the points in the mark 
     <!-- Task 3: Head section title must be exactly "Tawara Racing" -->
     <title>Tawara Racing</title>
     
-    <!-- Task 8: Attach the stylesheet TRracing.css in the head section -->
+    <!-- Task 8: Attach the stylesheet TRracing.css in the head section. Coursebook Page 547 Figure 21.48-->
     <link rel="stylesheet" href="TRracing.css">
 </head>
 <body>
