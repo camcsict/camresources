@@ -43,3 +43,81 @@ B
 =============================================================================
 Date: 260824 - Past Paper Part 3: HTML/CSS (May/June 2025)
 =============================================================================
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Task 3: Head section title must be exactly "Tawara Racing" -->
+    <title>Tawara Racing</title>
+    
+    <!-- Task 8: Attach the stylesheet TRracing.css in the head section -->
+    <link rel="stylesheet" href="TRracing.css">
+</head>
+<body>
+
+    <!-- Task 2 & 3: Single table used, width set to 90%, borders visible (border="1"), and no letters (A, B, C, D, E) visible in the code -->
+    <table width="90%" border="1">
+        
+        <!-- ROW 1 (Cell A) -->
+        <tr>
+            <!-- Task 2 & 4: Row 1 colspan="2". Top row displays TRbanner.png -->
+            <td colspan="2">
+                <img src="TRbanner.png" alt="Tawara Racing Banner" style="width:100%;">
+            </td>
+        </tr>
+
+        <!-- ROW 2 (Cells B and C) -->
+        <tr>
+            <!-- Task 4: Row 2 left (Cell B) - Video visible -->
+            <td>
+                <!-- video tag used with controls (QP requirement) and loop attribute (MS requirement) -->
+                <video controls loop>
+                    <!-- source tag used with src="TRvideo.mp4" and type="video/mp4" -->
+                    <source src="TRvideo.mp4" type="video/mp4">
+                    <!-- Appropriate error message between <video> and </video> -->
+                    Your browser does not support this video type.
+                </video>
+            </td>
+            
+            <!-- Task 5: Row 2 right (Cell C) - Text set in style h3 -->
+            <td>
+                <h3>
+                    <!-- Note: In the real exam, paste the exact text from TRtext.txt here -->
+                    [Insert text from TRtext.txt here]
+                </h3>
+            </td>
+        </tr>
+
+        <!-- ROW 3 (Cell D) -->
+        <tr>
+            <!-- Task 2 & 6: Row 3 colspan="2". All text set in style h2 -->
+            <td colspan="2">
+                <h2>
+                    Click here to find out more about our 
+                    
+                    <!-- Task 7: Anchor set around "exciting developments" to open TRdevelop.htm in a new window called _blank -->
+                    <a href="TRdevelop.htm" target="_blank">exciting developments</a>, 
+                    
+                    or here for 
+                    
+                    <!-- Task 7: Anchor set around "job opportunities" to open an email editor to the specific address with the subject line -->
+                    <a href="mailto:Tawara.Racing@cambridge.org?subject=Job opportunities">job opportunities</a>.
+                </h2>
+            </td>
+        </tr>
+
+        <!-- ROW 4 (Cell E) -->
+        <tr>
+            <!-- Task 2 & 6: Row 4 colspan="2". All text set in style h2 -->
+            <td colspan="2">
+                <h2>
+                    <!-- Task 6: "Web page created by:" followed by a new line (<br>), then name and numbers -->
+                    Web page created by:<br>
+                    Your Name, Centre Number, Candidate Number
+                </h2>
+            </td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
