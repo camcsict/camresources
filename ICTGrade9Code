@@ -43,6 +43,9 @@ B
 =============================================================================
 Date: 260824 - Past Paper Part 3: HTML/CSS (May/June 2025)
 =============================================================================
+The two uploaded files are the questions and the mark scheme. 
+Please write the simplest HTML and CSS code to cover all the points in the mark scheme, with detailed English comments.
+=============================================================================
 <!DOCTYPE html>
 <html>
 <head>
