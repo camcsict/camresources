@@ -1,0 +1,45 @@
+=============================================================================
+A
+=============================================================================
+Date: 260824 - Grade 9 Assessment Table Layout, Hyperlinks, Media
+=============================================================================
+<!-- Table Layout: 1 mark (Using table is the standard for HTML emails) -->
+
+<table border="1">
+    
+    <!-- Row 1: Main Title -->
+    <tr>
+        <td colspan="2">
+            <!--3 marks: <h1> blue color text -->
+            <h1 style="color: blue">Contact Us</h1>
+        </td>
+    </tr>
+
+    <!-- Row 2: Address Section -->
+    <tr>
+        <td align="center">
+            <!-- 2 marks: image alt="house" -->
+            <!-- Note: You can replace "image_house11f2a0.png" with your exact image path -->
+            <img src="image_house11f2a0.png" alt="house">
+        </td>
+        <td>
+            <!-- 2 marks: <h2> 🏠 Emoji and text -->
+            <h2>🏠 Address: Street 11, <br>Phnom Penh, Cambodia</h2>
+        </td>
+    </tr>
+
+    <!-- Row 3: Email Section -->
+    <tr>            
+        <td colspan="2">
+            <!-- 4 marks: <h2> Text (Email and Subject details) -->
+            <h2>
+                <a href="mailto:thehouse@house.com?subject=Say hi">📧 Email Us</a>
+            </h2>
+        </td>
+    </tr>
+</table>
+=============================================================================
+B
+=============================================================================
+Date: 260824 - Past Paper Part 3: HTML/CSS (May/June 2025)
+=============================================================================
