@@ -1,0 +1,139 @@
+===========================================================================
+A
+============================================================================
+Date: 20260827
+
+Grade 10 ICT
+The questions come from Past Paper 3 (HTML 32, May/June 2025).
+You can prepare and practice over the weekend.
+1. Questions: https://pastpapers.papacambridge.com/viewer/caie/igcse-ict0417-2025-may-june-0417-s25-qp-32-pdf
+2. Mark Scheme: https://pastpapers.papacambridge.com/viewer/caie/igcse-ict0417-2025-may-june-0417-s25-ms-32-pdf
+3.a. Source Files: https://pastpapers.papacambridge.com/viewer/caie/igcse-ict0417-2025-may-june-0417-s25-sf-32-zip
+3.b. Source Files: or https://mega.nz/file/Ru5gEb7R#lSReXQ8CaXzBg9XPLPwgWicIrj-WVWzfUNt-b2PqTTM
+
+1. Stylesheet (j25racing.css)
+
+body {
+    background-color: #d2fffe;
+}
+
+table {
+    border-spacing: 20px;
+    border-color: #0000FF;
+    border-collapse: collapse;
+    /* Task 25: Added margin auto to centre-align the table in the browser window */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 20px;
+}
+
+h1 {
+    font-family: Calibri, Arial, sans-serif;
+    color: #000040;
+    text-align: center;
+    font-size: 30pt;
+}
+
+h2 {
+    font-family: Calibri, Arial, sans-serif;
+    color: #000040;
+    text-align: center;
+    font-size: 28pt;
+}
+
+h3 {
+    font-family: Calibri, Arial, sans-serif;
+    color: #000040;
+    text-align: justify;
+    font-size: 24pt;
+}
+
+p {
+    font-family: Calibri, Arial, sans-serif;
+    color: #000040;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.right {
+    text-align: right;
+}
+
+2. Web Page Code (j25racing.htm)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tawara Racing</title>
+    <!-- Task 25: Attach the stylesheet j25racing.css to the web page -->
+    <link rel="stylesheet" type="text/css" href="j25racing.css">
+</head>
+<body>
+
+    <!-- Task 18: File Management Note -->
+    <!-- Created a new folder called 'TR' containing: j25banner.jpg, j25racing.css, j25racing.mp4, j25tech.htm, and j25text.txt -->
+    <!-- Screenshot of folder contents captured and placed in the Evidence Document showing folder name, dimensions, file sizes, and extensions. -->
+
+    <!-- Task 19: Create web page using a single table, width set to 85%, centre-aligned, no borders, no layout letters visible, row 1 spanning 2 columns -->
+    <table style="width: 85%;">
+        
+        <!-- Row 1: Cell A (Banner Area) -->
+        <tr>
+            <td colspan="2">
+                <!-- Task 21: Place image j25banner.jpg in cell A -->
+                <img src="j25banner.jpg" alt="Tawara Racing Banner" style="width: 100%;">
+            </td>
+        </tr>
+
+        <!-- Row 2: Cell B (left) and Cell C (right) -->
+        <tr>
+            <td>
+                <!-- Task 22: Enter text from source file j25text.txt set in style h3 -->
+                <h3>Welcome to Tawara Racing. We are dedicated to bringing you the latest updates, cutting-edge technologies, and high-performance racing insights from around the globe. Stay tuned for expert analysis and community events.</h3>
+            </td>
+            
+            <!-- Task 20: Set both width and height of cell C to 480 pixels using inline styles -->
+            <td style="width: 480px; height: 480px;">
+                <!-- Task 21: Place video and source tags to display j25racing.mp4 with controls, loop, and automated error message -->
+                <video width="480" height="480" controls loop>
+                    <source src="j25racing.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </td>
+        </tr>
+
+        <!-- Row 3: Cell D (left) and Cell E (right) -->
+        <tr>
+            <td>
+                <!-- Task 23 & Task 24: Cell D text set in style h2, with hyperlink to j25tech.htm -->
+                <h2><a href="j25tech.htm">New technologies</a></h2>
+            </td>
+            <td>
+                <!-- Task 23 & Task 24: Cell E text set in style h2, with mailto link and subject line "Tell me more!" -->
+                <h2><a href="mailto:Tawara.Racing@cambridge.org?subject=Tell me more!">Contact us</a></h2>
+            </td>
+        </tr>
+
+        <!-- Row 4: Cell F (left) and Cell G (right) -->
+        <tr>
+            <td>
+                <!-- Task 23 & Task 26: Cell F text set in style h2 with class 'right' applied -->
+                <h2 class="right">Designed by:</h2>
+            </td>
+            <td>
+                <!-- Task 23: Cell G containing candidate details set in style h2 -->
+                <h2>Candidate Name, ZZ999, 1234</h2>
+            </td>
+        </tr>
+
+    </table>
+
+    <!-- Task 27: Save the web page. HTML source copied to Evidence Document, and browser screenshot captured with the address bar visible. -->
+
+</body>
+</html>
+
