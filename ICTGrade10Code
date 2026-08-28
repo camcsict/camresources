@@ -79,6 +79,11 @@ p {
     <!-- Screenshot of folder contents captured and placed in the Evidence Document showing folder name, dimensions, file sizes, and extensions. -->
 
     <!-- Task 19: Create web page using a single table, width set to 85%, centre-aligned, no borders, no layout letters visible, row 1 spanning 2 columns -->
+
+    <!-- Option 2 without <style> : Separate the HTML attribute and CSS style --> 
+    <!-- 
+    <table style="width: 85%;" border="0/1/2/3/4">    
+    -->
     <table style="width: 85%;">
         
         <!-- Row 1: Cell A (Banner Area) -->
