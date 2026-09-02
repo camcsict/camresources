@@ -1,5 +1,5 @@
 =============================================================================
-A
+Section A
 =============================================================================
 Date: 260824 - Grade 9 Assessment Table Layout, Hyperlinks, Media
 =============================================================================
@@ -39,7 +39,7 @@ Date: 260824 - Grade 9 Assessment Table Layout, Hyperlinks, Media
     </tr>
 </table>
 =============================================================================
-B
+Section B
 =============================================================================
 Date: 260824 - Past Paper Part 3: HTML/CSS (May/June 2025)
 =============================================================================
@@ -116,6 +116,85 @@ Please write the simplest HTML and CSS code to cover all the points in the mark 
                     <!-- Task 6: "Web page created by:" followed by a new line (<br>), then name and numbers -->
                     Web page created by:<br>
                     Your Name, Centre Number, Candidate Number
+                </h2>
+            </td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
+=============================================================================
+Section C
+=============================================================================
+Date: 260902 - Practice Past Paper Part 3.1: HTML/CSS (May/June 2025)
+=============================================================================
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Task 3: Head section title must be exactly "Tawara Racing" -->
+    ........................................................................
+    
+    <!-- Task 8: Attach the stylesheet TRracing.css in the head section. Coursebook Page 547 Figure 21.48-->
+    ........................................................................
+
+</head>
+<body>
+    <!-- Task 2 & 3: Single table used, width set to 90%, borders visible (border="1"), and no letters (A, B, C, D, E) visible in the code -->
+    <table width="90%" border="1">
+        
+        <!-- ROW 1 (Cell A) -->
+        <tr>
+            <!-- Task 2 & 4: Row 1 colspan="2". Top row displays TRbanner.png -->
+            <td colspan="2">
+                ........................................................................
+            </td>
+        </tr>
+
+        <!-- ROW 2 (Cells B and C) -->
+        <tr>
+            <!-- Task 4: Row 2 left (Cell B) - Video visible -->
+            <td>
+                <!-- video tag used with controls (QP requirement) and loop attribute (MS requirement) -->
+                <video controls loop>
+                    <!-- source tag used with src="TRvideo.mp4" and type="video/mp4" -->
+                    ........................................................................
+                    <!-- Appropriate error message between <video> and </video> -->
+                    ........................................................................
+                </video>
+            </td>
+            
+            <!-- Task 5: Row 2 right (Cell C) - Text set in style h3 -->
+            <td>
+                <h3>
+                    <!-- Note: In the real exam, paste the exact text from TRtext.txt here -->
+                    [Insert text from TRtext.txt here] .......................................
+                </h3>
+            </td>
+        </tr>
+
+        <!-- ROW 3 (Cell D) -->
+        <tr>
+            <!-- Task 2 & 6: Row 3 colspan="2". All text set in style h2 -->
+            <td colspan="2">
+                <h2>
+                    <!-- Task 7: Anchor set around "exciting developments" to open TRdevelop.htm in a new window called _blank -->
+                    ........................................................................
+                                       
+                    
+                    <!-- Task 7: Anchor set around "job opportunities" to open an email editor to the specific address with the subject line -->
+                    ........................................................................
+                </h2>
+            </td>
+        </tr>
+
+        <!-- ROW 4 (Cell E) -->
+        <tr>
+            <!-- Task 2 & 6: Row 4 colspan="2". All text set in style h2 -->
+            <td colspan="2">
+                <h2>
+                    <!-- Task 6: "Web page created by:" followed by a new line (<br>), then name and numbers -->
+                    ........................................................................
                 </h2>
             </td>
         </tr>
